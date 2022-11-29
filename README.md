@@ -1,45 +1,47 @@
-# Design System - Exercício
+# Design Systems
 
-### Setup do projeto no Git
+## 📄 Introdução
 
-**Siga esses passos pra fazer o setup e poder trabalhar no seu projeto:**
+Este projeto foi desenvolvido para prática de Design Systems. O objetivo é renderizar uma imagem com base no kit de ferramentas do [Chakra UI](https://chakra-ui.com/).
 
--  [ ] Crie um **fork** deste projeto.
-   <details>
-      <summary>Esqueceu como se faz?</summary>
-      <img src="https://firebasestorage.googleapis.com/v0/b/assets-conteudo.appspot.com/o/gerais%2Ffork.png?alt=media&token=7030e997-246a-41fe-a75f-2a2ced61e54d" alt="Fork a sua própria cópia de nome-do-repo"/>
-   </details>
--  [ ] Clone sua **PRÓPRIA** versão do repositório
-   <details>
-      <summary>Esqueceu como se faz?</summary>
-      <img src="https://firebasestorage.googleapis.com/v0/b/assets-conteudo.appspot.com/o/gerais%2Fclone-repo.png?alt=media&token=d8b3c101-c6d4-4371-b018-ae4edec7e34c" alt="Garanta que o repositório é seu-usuário/nome-do-repo e faça o clone"/>
-   </details>
--  [ ] Crie uma nova branch: git checkout -b `<turma-nome-sobrenome>`.
-   <details>
-      <summary>Entenda o comando `git checkout -b`</summary>
-      <p>Na aula vocês aprenderam a criar uma branch (`git branch "nome-branch"`) e se mover até ela (`git checkout "nome-branch"`). Porém, o git permite utilizar contrações para realizar mais de ação com um único comando, que é o caso do (`git checkout -b "nome-branch"`), que cria e automaticamente se move para a branch recém criada.</p>
-   </details>
--  [ ] Implemente o projeto na branch `<turma-nome-sobrenome>`. Lembre-se de fazer commits.
--  [ ] Dê push nos commits: git push origin `<turma-nome-sobrenome>`.
+## 📄 Descrição
+Para a implementação do projeto, foram solicitados os seguintes requisitos pela Labenu:
 
-**Siga os passos abaixo ao terminar seu projeto, para enviá-lo:**
+1. Exercício 1
+No primeiro exercício vamos praticar a instalação e configuração do ChakraUI.
+- Instale o React
+- Instale o ChakraUI
+- Configure o Provider no App
+- Implemente um botão do Chakra no App para confirmar que tudo está funcionando
 
--  [ ] Envie um Pull Request da sua branch recém enviada, para que seja possível fazer o merge depois. **POR FAVOR NAO FAÇA O MERGE DO SEU PRÓPRIO PULL REQUEST**
--  [ ] Após o momento de feedback e correção, aprove seu Pull Request e faça o merge
--  [ ] Seu projeto será considerado completo quando a aprovação e o merge com a main acontecerem **em seu próprio repositório**.
+2. Exercício 2
+Agora vamos utilizar um template pronto de Card no Chakra e implementá-lo.
+- Acesse o link dos templates de Card do Chakra no README do repositório
+- Escolha um dos Cards prontos e implemente-o em um arquivo separado e chame-o no seu App (pode ser igual o da aula)
+- Teste tudo e confirme que está funcionando
 
-### Como eu vou executar os exercícios?
-Crie um aplicativo React do zero e inicie pelo exercício 1.
+3. Exercício 3
+Para finalizar, crie um array com no mínimo 3 itens, baseado no Card que você implementou.
+<br><br>
+Por exemplo: se escolheu o Card de produtos (Product Simple), então o array guardará objetos com propriedades brand (marca), name (nome), priceDescount (preço com desconto) e priceNormal (preço normal).
+<br><br>
+Não iremos utilizar o axios nesse exercício, por isso vamos criar nosso próprio array de dados.
+- Você pode decidir se vai deixar o array em um arquivo separado e exportá-lo, ou então criá-lo direto no App.js
+- Crie um estado e coloque seu array como valor inicial (não se preocupe em utilizar a função de atualização)
+- Mapeie o estado, retornando o Card passando as props necessárias para personalização
+- Edite o Card para receber as props e utilizá-las em seu interior
 
-### O que você precisa saber e praticar desta aula?
 
-- [ ] item 1 - React
-- [ ] item 2 - Instalação e configuração do ChakraUI
-- [ ] item 3 - ChakraUI
+## ⚒️ Tecnologias 
 
-Cada pasta deste repo possui um README.md com o enunciado do exercício.
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![Javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
-### Informações úteis sobre o assunto
+## 📫 Contato
 
-[Documentação do ChakraUI](https://chakra-ui.com/getting-started)<br>
-[Templates do ChakraUI](https://chakra-templates.dev/components/cards)
+E-mail: emidio.daniel@hotmail.com
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/danielemidio1988/)
+[![Codewars](https://img.shields.io/badge/Codewars-B1361E?style=for-the-badge&logo=Codewars&logoColor=white)](https://www.codewars.com/users/DanielEmidio1988)
